@@ -1,0 +1,193 @@
+/*Cabecera*/
+header{
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    background: rgba(148, 207, 138, 0.856);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+/*Barra de navegación*/
+.container{
+    padding: 0 25px;
+    height: 56px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.name_portafolio{
+    color: rgb(251, 255, 227);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
+/*Todo*/
+.App, html, body, #root{
+    background-color: rgb(230, 252, 212);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.3;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    flex: 1;
+    padding: 80px 0 40px 0;
+    height: 100%;
+    width: 100%;
+}
+/*Contenedor principal*/
+h3{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 27px;
+    font-weight: 530;
+    margin: 8px 0 8px 0;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+    
+}
+.input_Number {
+    width: 50px;
+}
+.create_list button, .form button {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+}
+/*Estilo de pestañas*/
+.create_list{
+    padding: 30px;
+    border-radius: 10px;
+    width: 348px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    margin: 0 0 0 20px;
+    background-color: rgb(247, 255, 240);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.tabs_conteiner{
+    display: grid;
+    justify-items: center;
+    padding: 24px 0 0 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 0;
+}
+@media (max-width: 800px) {
+  .tabs_conteiner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .tabs_conteiner {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+.tab{
+    border-radius: 10px;
+    width: 400px;
+}
+.tab_color {
+    position: absolute;
+    padding: 10px 0 0 10px;
+}
+.tab_color select {
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 8px;
+    outline: none;
+    width: 60px;
+}
+.tab_rest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px 5px 30px 5px;
+}
+/*Estilo de la lista*/
+.buttons{
+    display: flex;
+    justify-content: center;    
+    gap: 10px;
+}
+    /*Formulrio*/
+.form_name, .form_amount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 0 0 0 56px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 0 0 15px 0;
+}
+    /*Items*/
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+.list_elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px 0 0 0;
+}
+.list_elements_i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.list_elements_i input {
+    padding: 2px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.list_elements_d {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px 0 0;
+}
+.list_elements button {
+    padding: 0;
+    border: 0;
+    background: none;
+}
+.list_elements button:hover {
+    filter: brightness(1.3);
+}

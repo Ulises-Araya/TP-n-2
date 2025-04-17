@@ -1,0 +1,156 @@
+.create_list button {
+    background-color: rgb(88, 148, 79);
+    color: white;
+}
+.create_list button:hover {
+    background-color: rgba(88, 148, 79, 0.856);
+}
+.create_list input{
+    border: 1px solid rgba(88, 148, 79, 0.856);
+    background-color: rgb(251, 255, 227);
+    color: rgb(88, 148, 79);
+}
+.create_list input:hover{
+    border-color: rgb(88, 148, 79);
+    box-shadow: 0 0 5px rgba(88, 148, 79, 0.7);
+}
+/*Verde*/
+.verde h3{
+    color: rgb(88, 148, 79);
+}
+.verde label{
+    color: rgb(88, 148, 79);
+}
+.verde input{
+    border: 1px solid rgba(88, 148, 79, 0.856);
+    background-color: rgb(251, 255, 227);
+    color: rgb(88, 148, 79);
+}
+.verde input:hover{
+    border-color: rgb(88, 148, 79);
+    box-shadow: 0 0 5px rgba(88, 148, 79, 0.7);
+}
+.verde .form button{
+    background-color: rgb(88, 148, 79);
+    color: white;
+}
+.verde .form button:hover {
+    background-color: rgba(88, 148, 79, 0.856);
+}
+.verde.tab{
+    background-color: rgb(247, 255, 240);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.verde .tab_color select{
+    border: 1px solid rgba(88, 148, 79, 0.856);
+    background-color: rgb(251, 255, 227);
+    color: rgb(88, 148, 79);
+}
+.verde .list_elements_i{
+    color:rgb(51, 138, 36);
+}
+/* Azul */
+.azul h3 {
+    color: rgb(79, 137, 192);
+}
+.azul label {
+    color: rgb(79, 137, 192);
+}
+.azul input {
+    border: 1px solid rgb(68, 116, 160);
+    background-color: rgb(245, 239, 255);
+    color: rgb(41, 99, 153);
+}
+.azul input:hover {
+    border-color: rgb(73, 126, 175);
+    box-shadow: 0 0 5px rgba(73, 126, 175, 0.829);
+}
+.azul .form button {
+    background-color: rgb(79, 137, 192);
+    color: white;
+}
+.azul .form button:hover {
+    background-color: rgba(79, 137, 192, 0.87);
+}
+.azul.tab {
+    background-color: rgba(236, 246, 252, 0.829);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.azul .tab_color select {
+    border: 1px solid rgb(68, 116, 160);
+    background-color: rgb(245, 239, 255);
+    color: rgb(79, 137, 192);
+}
+.azul .list_elements_i{
+    color:rgb(86, 116, 145);
+}
+/* Rosa */
+.rosa h3 {
+    color: rgb(255, 94, 102);
+}
+.rosa label {
+    color: rgb(255, 94, 102);
+}
+.rosa input {
+    border: 1px solid rgb(248, 76, 85);
+    background-color: rgb(255, 237, 244);
+    color: rgb(255, 96, 152);
+}
+.rosa input:hover {
+    border-color: rgb(230, 60, 69);
+    box-shadow: 0 0 5px rgba(230, 60, 69, 0.836);
+}
+.rosa .form button {
+    background-color: rgb(255, 94, 134);
+    color: white;
+}
+.rosa .form button:hover {
+    background-color:  rgb(253, 149, 185);
+}
+.rosa.tab {
+    background-color: rgb(255, 247, 250);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.rosa .tab_color select {
+    border: 1px solid rgb(248, 76, 85);
+    background-color: rgba(255, 237, 244, 0.884);
+    color: rgb(255, 94, 102);
+}
+.rosa .list_elements_i{
+    color:rgb(243, 35, 87);
+}
+/* Amarillo */
+.amarillo h3 {
+    color: rgb(247, 161, 0);
+}
+.amarillo label {
+    color: rgb(247, 161, 0);
+}
+.amarillo input {
+    border: 1px solid rgb(252, 161, 25);
+    background-color: rgb(251, 255, 214);
+    color: rgb(247, 161, 0);
+}
+.amarillo input:hover {
+    border-color: rgb(255, 154, 3);
+    box-shadow: 0 0 5px rgba(255, 154, 3, 0.747);
+}
+.amarillo .form button {
+    background-color: rgb(245, 173, 40);
+    color: white;
+}
+.amarillo .form button:hover {
+    background-color: rgba(245, 173, 40, 0.863);
+}
+.amarillo.tab {
+    background-color: rgb(255, 255, 248);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.amarillo .tab_color select {
+    border: 1px solid rgb(255, 154, 3);
+    background-color: rgb(251, 255, 214);
+    color: rgb(247, 161, 0);
+}
+.amarillo .list_elements_i{
+    color:rgb(235, 141, 0);
+}
